@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: cart-app-prod
+spec:  
+  containers:
+    - name: test-container
+      image: sachinamit12/my-app:latest
+      ports:
+        - containerport: 3000
