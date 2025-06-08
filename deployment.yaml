@@ -36,4 +36,4 @@ spec:
   - port: 3017 # Service  Port Number on which port number you want to access the application
     targetPort: 3015 # On Which Port Number your application is running
     protocol: TCP
-  type: LoadBalance
+  type: LoadBalancer
