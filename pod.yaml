@@ -2,9 +2,10 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: cart-app-prod
+  namespace: amit-ns
 spec:  
   containers:
     - name: test-container
       image: sachinamit12/new:1.0
       ports:
-        - containerPort: 3000
+        - containerPort: 3015
