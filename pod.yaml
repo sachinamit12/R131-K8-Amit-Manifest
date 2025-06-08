@@ -7,4 +7,4 @@ spec:
     - name: test-container
       image: sachinamit12/new:1.0
       ports:
-        - containerport: 3000
+        - containerPort: 3000
